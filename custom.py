@@ -11,13 +11,15 @@ class myQueue:
 
     def push(self, value):
         if self.mode == 'stack':
-            return 1
+            self.stack.append(value)
         elif self.mode == 'queue':
-            return 1
+            self.queue.append(value)
         elif self.mode == 'priority_queue':
-            return 1
-        else:
             return 0
+        else:
+            return 1
+        
+        return 0
 
 
     def pop(self):
@@ -26,13 +28,15 @@ class myQueue:
             return 0
         else:
             if self.mode == 'stack':
-                return 1 
+                self.stack.pop()
             elif self.mode == 'queue':
-                return 1
+                self.queue.popleft()
             elif self.mode == 'priority_queue':
-                return 1
-            else:
                 return 0
+            else:
+                return 1
+        
+        return 0
 
     
     def is_empty(self):
