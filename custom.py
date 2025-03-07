@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-'''Implementing stack, queue and priority queue using a single class'''
+'''
+Problem #1 
+Ellie Winter 
+
+Implementing stack, queue and priority queue using a single class
+'''
 
 import heapq
 from collections import deque

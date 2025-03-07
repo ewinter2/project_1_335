@@ -1,5 +1,8 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 '''
+Problem #2
+Ellie Winter 
+
 Example:
 Input:
     List 1: 2 -> 4 -> 3 (represents the number 342)
